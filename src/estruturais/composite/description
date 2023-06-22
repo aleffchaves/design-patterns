@@ -1,0 +1,15 @@
+COMPOSITE
+
+DEFINIÇÃO:
+    -->
+
+PROBLEMAS:
+    --> O problema é lidar com uma estrutura hierarquica de objetos, onde tanto os objetos individuais
+        quanto as composições de objetos precisam ser tratados de maneira uniforme. Além disso, é necessário realizar operações
+        recursivas em toda estrutura e obter informações agregadas;
+
+SOLUÇÃO:
+    --> O padrão COMPOSITE permite tratar objetos individuais e composições de objetos da mesma maneira, fornecendo uma
+        interface comum para ambos os objetos. A ideia central é criar uma hierarquia de classes onde cada classe representa
+        um componente, que pode ser um objeto individual ou composição de objetos. Esses componentes compartilham uma
+        interface comum, permitindo que as operações sejam realizadas de forma transparente.

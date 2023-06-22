@@ -1,0 +1,20 @@
+DECORATOR
+
+DEFINIÇÃO:
+
+    --> Anexar responsabilidades adicionais a um objeto dinamicamente. Decorators oferecem uma alternativa flexível
+        ao uso de herança para estender uma funcionalidade.
+
+    --> O padrão decorator é um padrão de design estrutural que permite adicionar comportamentos adicionais a um objeto
+        de forma dinâmica. Ele permite estender a funcionalidade de um objeto
+
+PROBLEMAS:
+
+    --> Como eu posso adicionar funcionalidades dinamicamente em um objeto?
+
+    --> O problema é a necessidade de adicionar funcionalidades extras a um objeto de forma dinâmica, sem modificar sua
+        estrutura básica ou de outros objetos relacionados. Logo o padrão dacorator permite que adicionemos comportamentos
+        adicionais a um objeto de forma flexível e modular. Ele nos permite encapsular um objeto dentro de um ou vários
+        decoradores, criando uma pilha de objetos decorados, Cada decorador adiciona seu proprio comportamento antes ou
+        depois de chamar o método do objeto decorado, permitindo assim a extensão dinâmica das funcionaliidades.
+

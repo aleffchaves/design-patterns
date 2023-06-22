@@ -1,0 +1,13 @@
+BRIDGE
+
+DEFINIÇÃO:
+    --> desacoplar uma abstração de sua implementação para que os dois possoam variar idenpendentemente.
+
+PROBLEMAS:
+    --> Como é possivel fazer cm que a abstração e a implementação possam variar idenpendentemente?
+    --> Como esta implementação pode variar em tempo de execução?
+
+SOLUÇÃO:
+    --> Definir um conjunto hierarquico para ambos os lados: abstração e implementação
+    --> Em tempo de execução, será possível escolher a classe concreta para a abstração e implementação
+    --> Que são compativeis graças as interfaces.
