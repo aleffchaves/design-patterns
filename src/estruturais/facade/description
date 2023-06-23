@@ -1,0 +1,10 @@
+FACADE
+
+DEFINIÇÃO: Oferecer uma interface única para um conjunto de interfaces de um subsistema. façade define uma interface de
+           nível mais elevado que torna o subsistema mais fácil de usar.
+
+PROBLEMA: Como posso simplificar o acesso a um sistema complexo utilizando uma interface simples?
+          Como reduzir a complexidade interna de um sistema para o cliente?
+
+SOLUÇÃO: Definir interface única para um conjunto de interfaces de um sistema
+

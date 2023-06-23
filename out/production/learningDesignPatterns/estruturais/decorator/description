@@ -1,5 +1,7 @@
 DECORATOR
 
+Principio: Priorize Composição no lugar de herança!
+
 DEFINIÇÃO:
 
     --> Anexar responsabilidades adicionais a um objeto dinamicamente. Decorators oferecem uma alternativa flexível
@@ -17,4 +19,3 @@ PROBLEMAS:
         adicionais a um objeto de forma flexível e modular. Ele nos permite encapsular um objeto dentro de um ou vários
         decoradores, criando uma pilha de objetos decorados, Cada decorador adiciona seu proprio comportamento antes ou
         depois de chamar o método do objeto decorado, permitindo assim a extensão dinâmica das funcionaliidades.
-

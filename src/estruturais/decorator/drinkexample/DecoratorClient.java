@@ -21,7 +21,4 @@ public class DecoratorClient {
         System.out.println("total: " + drink.getPrice());
 
     }
-
-
-
 }

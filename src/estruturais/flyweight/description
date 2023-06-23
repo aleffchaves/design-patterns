@@ -1,0 +1,21 @@
+FLYWEGHT = é tipo umm cache!
+
+DEFINIÇÃO: Oferecer uma interface única para um conjunto de interfaces de um subsistema. façade define uma interface de
+           nível mais elevado que torna o subsistema mais fácil de usar.
+
+           Definição do GOF: Usar compartilhamento para suportar grandes quantidades de objetos refinados eficientemente.
+
+IDEIA CENTRAL: A ideia central é separar os dados intrisecos(compartilháveis) dos dados extríncicos (não compartilhaveis)
+           de um objeto. Os dados intrinsecos são passados como parâmetros externos para os métodos dos objetos.
+           Ao utilizar esse pattern é possível reduzir significativamente a quantidade de memória utilizada, já que os
+           objetos compartilham informações as informações intrínsecas.
+
+PROBLEMA:
+          O problema que o flyweght resolve é o consumo excessivo de memória quando temos muitos objetos que compartilham
+          características semelhantes. Em vez de criar uma instância separada para cada objeto, o padrão flyweght permite que
+          vários objetoscompartilhem a mesma instância.
+
+PERGUNTA: Como posso trabalhar com uma grande quantidade de objetos na memória de uma forma mais eficiente?
+
+SOLUÇÃO:
+
