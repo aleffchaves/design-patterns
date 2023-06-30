@@ -1,0 +1,19 @@
+STRATEGY
+
+DEFINIÇÃO: Definir uma família de algoritmos, encapsular cada um, e fazê-los intercambiáveis. Strategy permite que
+           algoritmos mudem independentemente entre clientes que os utilizam.
+
+PROBLEMAS: Como uma classe pode utilizar um algoritmo definido dinamicamente?
+           Como posso selecionar e trocar uma lógica em tempo de execução?
+
+SOLUÇÃO: Encapsular os algoritmos possíveis para o mesmo problema em uma estrutura de strategy
+         O cliente irá delegar a execução para estas estratégias ao invés de possuir a lógica internamente.
+
+
+Componentes do padrão Strategy:
+
+Strategy (Estratégia): É uma interface ou classe abstrata que define um contrato para todas as estratégias. Ela define os métodos comuns que todas as estratégias devem implementar.
+
+Concrete Strategies (Estratégias Concretas): São as classes que implementam a interface ou herdam da classe abstrata Strategy. Cada classe de estratégia implementa um algoritmo específico.
+
+Context (Contexto): É a classe que utiliza a estratégia. Ela tem uma referência para a interface Strategy e invoca os métodos da estratégia conforme necessário.
