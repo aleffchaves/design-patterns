@@ -1,0 +1,10 @@
+COMMAND
+
+DEFINIÇÃO: Encapsular uma requisição como um objeto, permitindo que clientes parametrizem diferentes requisições, filas
+           ou requisições de log, e suportar operações reversíveis. Ele separa o emissor de uma solicitação do objeto
+           que realiza uma ação, proporcionando maior flexibilidade e desacoplamento no sistema.
+
+
+
+
+

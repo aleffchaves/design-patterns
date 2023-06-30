@@ -1,0 +1,17 @@
+PROXY
+
+DEFINIÇÃO: GOF: Prover um substituto ou ponto através do qual um objeto possa controlar o acesso a outro.
+
+           O padrão proxy é um padrão estrutural que permite controlar o acesso a um objeto subjacente, fornecendo uma
+           interface semelhante. Ele atua como um intermedário entre o cliente e o objeto real, permitindo que você adicione
+           funcionaldades extras ao acesso desse objeto sem alterar sua implementação;
+
+UTILIDADE: O proxy é util em várias situações, incluindo:
+            -> Controle de acesso: O proxy pode controlar o acesso a um objeto real, impondo restrições adicionais ou
+               verificando as permissões do cliente antes de permitir o acesso;
+            -> Criação sob demanda(lazy initialization): O proxy pode atrasar a criação do objeto real até que seja
+               realmente necessário, economizandorecursos e melhorando o desempenho;
+            -> Encapsulamento de funcionalidades adicionais: O proxy pode adicionar funcionalidades extras ao objeto real
+               como registros de log, cache, autenticação, criptografia, etc.. sem modificar diretamente o objeto real.
+
+

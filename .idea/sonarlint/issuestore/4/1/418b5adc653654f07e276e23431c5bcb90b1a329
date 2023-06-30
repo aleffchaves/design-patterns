@@ -1,0 +1,7 @@
+
+8
+java:S1700"Rename field "connectionPool"(ššóùÿÿÿÿ
+´
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(åâÕÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ä»­
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(êÈ»

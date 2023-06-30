@@ -1,0 +1,10 @@
+MEDIATOR
+
+DEFINIÇÃO: Definir um objeto que encapsula como umm conjunto de objetos interagem. Mediator promove acoplamento fraco ao
+           manter objetos que não se referem um ao outro explicitamente, permitindo variar sua interação independentemente.
+
+PROBLEMAS: Como posso reduzir o acoplamento entre objetos que precisam se comunicar?
+           Como posso deixar a interação entre objetos mais dinâmica?
+
+SOLUÇÃO: Utilizar uma estrutura de mediador para encapsular a forma em que os objetos se comunicarão!
+         Os objetos não precisam se conhecer, pois toda a interação será através do mediator

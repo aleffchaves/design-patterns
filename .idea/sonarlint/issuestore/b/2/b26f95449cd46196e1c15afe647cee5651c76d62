@@ -1,0 +1,7 @@
+
+U
+java:S1854"8Remove this useless assignment to local variable "milk".(Óöçë8Êîå›1
+F
+java:S1481")Remove this unused "milk" local variable.(Óöçë8Ëîå›1
+]	java:S125"<This block of commented-out lines of code should be removed.(î´ éşÿÿÿÿ8Ìîå›1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(©õ¬Î8†å›1
